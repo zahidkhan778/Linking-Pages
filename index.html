@@ -128,10 +128,19 @@
             letter-spacing: 1px;
         }
 
-        button:hover {
+        button a:hover {
             background-color: grey;
             color: white;
             transition: 0.4s ease;
+        }
+        button a{
+            background-color: white;
+            text-decoration: none;
+            color: black;
+            /* border: 1px solid black;  */
+            padding: 8px 10px;
+            /* border-bottom: 1px dotted black; */
+            transition: 0.6s ease;
         }
     </style>
 </head>
@@ -166,7 +175,8 @@
                     optimizing page loading times, and using a variety
                     of markup languages to create the web pages.
                 </p>
-                <button>Watch Me</button>
+                <button><a href="/Assets/cv.jpeg" download="/Assets/cv.jpeg">Download CV</button>
+
             </div>
         </div>
         <div class="pic">
