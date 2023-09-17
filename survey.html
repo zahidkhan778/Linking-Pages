@@ -16,19 +16,26 @@
             background-color: pink;
         }
 
-        h1 {
-            text-align: center;
-            font-weight: bolder;
-            padding-top: 5px;
-            font-family: Georgia, 'Times New Roman', Times, serif;
+        header{
+            background-color: gray;
+            padding: 20px 0;
+            height: 10vh;
+            width: 40vw;
+            margin-left: 30%;
+            border-radius: 35px;
+            align-items: center;
+            margin-bottom: 20px;
+            margin-top: 20px;
+            color: black;
+            
         }
-
-        p {
+        h1 , p{
             text-align: center;
             font-weight: bold;
-            padding-top: 5px;
-            padding-bottom: 5px;
+            padding: 5px 0;
+            font-family: 'Times New Roman', Times, serif;
         }
+        
 
         .table {
             background-color: red;
@@ -54,34 +61,41 @@
             border-radius: 6px;
             padding: 3px 3px;
         }
-        select{
+
+        select {
             width: 100%;
             height: 25px;
             font-weight: bold;
-            border:none ;
+            border: none;
             border-radius: 3px;
             text-align: center;
         }
-        .gender{
+
+        .gender {
             color: wheat;
             padding-left: 10px;
         }
-        .file{
+
+        .file {
             color: white;
             padding-top: 10px;
         }
-        .text1{
+
+        .text1 {
             color: white;
         }
-        .text{
+
+        .text {
             padding-bottom: 10px;
         }
-        textarea{
+
+        textarea {
             width: 100%;
             height: 70px;
             border-radius: 10px;
         }
-        .btn{
+
+        .btn {
             float: right;
             padding: 8px 8px;
             border-radius: 20px;
@@ -90,19 +104,22 @@
             background-color: pink;
             transition: 0.5s ease-in;
         }
-        .btn:hover{
+
+        .btn:hover {
             background-color: brown;
             color: white;
             border: 2px solid gray;
         }
-
-        </style>
+    </style>
 
 </head>
 
 <body>
-    <h1>Here is A survey Form</h1>
-    <p>You can provide your details Here</p>
+    <header>
+        <h1>Here is A survey Form</h1>
+        <p>You can provide your details Here</p>
+    </header>
+
     <div class="table">
         <form action="index.html">
             <label class="details"><span class="name">Name*</span> <br>
@@ -148,12 +165,12 @@
             <label class="text1">
                 <span class="text">
                     Drop here your suggestions and Comments
-                </span>  <br> <br>
-                <textarea cols="70" rows="10"></textarea>
+                </span> <br> <br>
+                <textarea required cols="70" rows="10"></textarea>
             </label> <br><br>
 
             <input class="btn" type="submit" value="SUBMIT FORM">
-<br><br>
+            <br><br>
         </form>
     </div>
 </body>
