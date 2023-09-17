@@ -57,6 +57,19 @@
             color: black;
         }
 
+        .survey {
+            background-color: red;
+            color: white;
+            font-weight: bold;
+            border : 2px solid black;
+            border-radius: 20px;
+        }
+        .survey:hover{
+            background-color: white;
+            color: #000;
+            border: 2px dotted gray;
+        }
+
         ul li a:hover {
             background-color: grey;
             color: white;
@@ -95,9 +108,11 @@
             font-family: Georgia, 'Times New Roman', Times, serif;
             font-size: 35px;
         }
-        .auto-type{
+
+        .auto-type {
             color: yellow;
         }
+
         .name {
             font-size: 45px;
             color: #637FC2;
@@ -133,7 +148,8 @@
             color: white;
             transition: 0.4s ease;
         }
-        button a{
+
+        button a {
             background-color: white;
             text-decoration: none;
             color: black;
@@ -152,8 +168,9 @@
         <h1 class="nav-h1">MY-PORTFOLIO</h1>
         <ul class="ulist">
             <li class="list"><a class="active" href="index.html">Home</a< /li>
-            <li class="list"><a target="_blank" href="github.html">GitHub</a></li>
-            <li class="list"><a target="_blank" href="cv.html">Resume</a></li>
+            <li class="list"><a href="github.html">GitHub</a></li>
+            <li class="list"><a href="cv.html">Resume</a></li>
+            <li class="list"><a class="survey" href="survey.html">Survey</a></li>
         </ul>
     </nav>
     <hr bdcolor="white">
@@ -186,4 +203,5 @@
 </body>
 <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
 <script src="./JS/styles.js"></script>
+
 </html>
